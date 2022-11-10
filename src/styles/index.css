@@ -10,3 +10,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#barra{
+    background-color: black;
+    width: 20px;
+    height: 150px;
+    margin: auto;
+}
+
+#semaforo{
+    background-color: black;
+    width: 150px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.light{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.red{
+    background-color: red;
+}
+.red-on{
+    background-color: red;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+.yellow{
+    background-color: yellow;
+}
+.yellow-on{
+    background-color: yellow;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+.green{
+    background-color: green;
+}
+.green-on{
+    background-color: green;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
