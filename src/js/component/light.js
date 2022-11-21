@@ -8,11 +8,9 @@ color -> color
 const Light = (props) => {
 
     const switchLight =()=> {
-        props.setLights({...props.lights, [props.color]: props.lights[props.color] === `off` ? `on` : `off`,
-        [props.color]: props.lights[props.color] === `on` ? `off` : `on`})
-    }
+        props.setLights(props.color)}
     return (
-        <div className={`light ${props.style}`} onClick={()=>{switchLight()}}>
+        <div className={`light ${props.color} ${props.style}`} onClick={()=>{switchLight()}}>
         </div>
     )
 

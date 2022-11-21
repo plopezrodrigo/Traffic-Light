@@ -6,32 +6,25 @@ import Light from "./light";
 
 //create your first component
 const Home = () => {
-	const [lights, setLights] = useState({
-		red: `off`,
-		yellow: `off`,
-		green: `off`
-	})
+	const [lights, setLights] = useState("")
 	return (
 		<div>
 			<div id="barra">
 				<div className="text-center black" id="semaforo">
 					<Light
-						style={lights.red === "off" ? "red" : "red-on"}
+						style={lights === "red" ? "on" : ""}
 						color={`red`}
 						setLights={setLights}
-						lights={lights}
 					/>
 					<Light
-						style={lights.yellow === "off" ? "yellow" : "yellow-on"}
+						style={lights === "yellow" ? "on" : ""}
 						color={`yellow`}
 						setLights={setLights}
-						lights={lights}
 					/>
 					<Light
-						style={lights.green === "off" ? "green" : "green-on"}
+						style={lights === "green" ? "on" : ""}
 						color={`green`}
 						setLights={setLights}
-						lights={lights}
 					/>
 				</div>
 			</div>

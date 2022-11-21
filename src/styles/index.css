@@ -36,21 +36,12 @@
 .red{
     background-color: red;
 }
-.red-on{
-    background-color: red;
-    box-shadow: #f8ffcc 0px 0px 50px 20px;
-}
 .yellow{
     background-color: yellow;
-}
-.yellow-on{
-    background-color: yellow;
-    box-shadow: #f8ffcc 0px 0px 50px 20px;
 }
 .green{
     background-color: green;
 }
-.green-on{
-    background-color: green;
+.on{
     box-shadow: #f8ffcc 0px 0px 50px 20px;
 }
